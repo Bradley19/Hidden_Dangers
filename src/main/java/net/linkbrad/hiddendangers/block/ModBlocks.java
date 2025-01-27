@@ -11,7 +11,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
-    public static final Block TAR_BLOCK = registerBlock("tar_block",
+    public static final Block TARBLOCK = registerBlock("tar_block",
             new Block(AbstractBlock.Settings.copy(Blocks.DIRT)));
 
 

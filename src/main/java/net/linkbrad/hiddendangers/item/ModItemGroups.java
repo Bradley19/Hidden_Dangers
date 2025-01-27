@@ -18,7 +18,7 @@ public class ModItemGroups {
                         entries.add(ModItems.POLLUTIONSCANNER);
 
 
-                        entries.add(ModBlocks.TAR_BLOCK);
+                        entries.add(ModBlocks.TARBLOCK);
 
                     }).build());
 
