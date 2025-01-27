@@ -11,7 +11,8 @@
   "item": "hidden-dangers:tar_block"
 },
     "result": {
-      "item": "hidden-dangers:tar_block"
+      "item": "hidden-dangers:tar_block",
+      "count": 9
     }
   }
 }
