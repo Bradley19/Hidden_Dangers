@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "hidden-dangers:tar_block"
+    }
+  ],
+  "result": {
+    "item": "hidden-dangers:tar_block",
+    "count": 2
+  }
+}

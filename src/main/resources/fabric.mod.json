@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "hidden-dangers",
+	"version": "${version}",
+	"name": "Hidden Dangers",
+	"description": "A Pollution Mod",
+	"authors": [
+		"Linkbrad"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/hidden-dangers/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.linkbrad.hiddendangers.HiddenDangers"
+		],
+		"client": [
+			"net.linkbrad.hiddendangers.HiddenDangersClient"
+		],
+		"fabric-datagen": [
+			"net.linkbrad.hiddendangers.HiddenDangersDataGenerator"
+		]
+	},
+	"mixins": [
+		"hidden-dangers.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
