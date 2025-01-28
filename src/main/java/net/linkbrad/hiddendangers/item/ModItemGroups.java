@@ -3,6 +3,8 @@ package net.linkbrad.hiddendangers.item;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.linkbrad.hiddendangers.HiddenDangers;
 import net.linkbrad.hiddendangers.block.ModBlocks;
+
+import net.linkbrad.hiddendangers.item.custom.ModFuelItems;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -15,7 +17,13 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.scanner"))
                     .icon(() -> new ItemStack(ModItems.POLLUTIONSCANNER)).entries((displayContext, entries) -> {
 
+
+
+
+
                         entries.add(ModItems.POLLUTIONSCANNER);
+                        entries.add(ModFuelItems.FAILEDPLASTICMOLDING);
+                        entries.add(ModFuelItems.LIQUIFIEDHYDROGENCANISTER);
 
 
                         entries.add(ModBlocks.TARBLOCK);

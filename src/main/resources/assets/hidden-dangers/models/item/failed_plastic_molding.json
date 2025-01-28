@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "hidden-dangers:item/faied_plastic_molding"
+  }
+
+}

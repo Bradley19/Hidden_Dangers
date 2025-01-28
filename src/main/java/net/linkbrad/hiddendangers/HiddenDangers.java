@@ -2,9 +2,11 @@ package net.linkbrad.hiddendangers;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.linkbrad.hiddendangers.block.ModBlocks;
 import net.linkbrad.hiddendangers.item.ModItemGroups;
 import net.linkbrad.hiddendangers.item.ModItems;
+import net.linkbrad.hiddendangers.item.custom.ModFuelItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -17,7 +19,11 @@ public class HiddenDangers implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModItems();
+		ModFuelItems.registerModfuelItem();
 
-		LOGGER.info("Hello Fabric world!");
+
+
+
+		LOGGER.info("The Worst Of Dangers Are Hidden In Plain Sight");
 	}
 }
