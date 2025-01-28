@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "plastic",
+  "ingredient": {
+    "item": "hidden-dangers:pollution_scanner"
+  },
+  "result": {
+    "id": "hidden-dangers:pollution_scanner"
+  }
+}

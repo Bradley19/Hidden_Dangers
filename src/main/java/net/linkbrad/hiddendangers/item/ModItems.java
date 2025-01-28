@@ -11,6 +11,7 @@ public class ModItems {
 
 
     public static final Item POLLUTIONSCANNER = registerItem("pollution_scanner",new Item(new Item.Settings()));
+    public static final Item PLASTICSHEET = registerItem("plastic_sheet",new Item(new Item.Settings()));
 
 
 

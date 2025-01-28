@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "plastic",
+  "ingredient": {
+    "item": "hidden-dangers:pollution_scanner"
+  },
+  "result": {
+    "id": "hidden-dangers:pollution_scanner"
+  }
+}

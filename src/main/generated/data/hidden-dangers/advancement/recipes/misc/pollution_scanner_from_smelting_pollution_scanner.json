@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_pollution_scanner": {
+      "conditions": {
+        "items": [
+          {
+            "items": "hidden-dangers:pollution_scanner"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:pollution_scanner_from_smelting_pollution_scanner"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_pollution_scanner"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:pollution_scanner_from_smelting_pollution_scanner"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "hidden-dangers:plastic_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "hidden-dangers:plastic_sheet"
+  }
+}

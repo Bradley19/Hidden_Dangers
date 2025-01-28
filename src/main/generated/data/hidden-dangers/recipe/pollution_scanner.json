@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "hidden-dangers:tar_block"
+    },
+    "@": {
+      "item": "minecraft:glass"
+    },
+    "P": {
+      "item": "minecraft:glass_bottle"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " # ",
+    "@P@",
+    "S#S"
+  ],
+  "result": {
+    "count": 1,
+    "id": "hidden-dangers:pollution_scanner"
+  }
+}

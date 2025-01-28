@@ -19,10 +19,18 @@ public class ModBlocks {
     public static final Block TARBLOCK = registerBlock("tar_block",
             new Block(AbstractBlock.Settings.create()
                     .requiresTool()
-                    .noCollision()
                     .burnable()
                     .instrument(NoteBlockInstrument.SNARE)
                     .hardness(10.0f)
+                    .velocityMultiplier(1.2f)
+                    .jumpVelocityMultiplier(0.8f)
+                    .pistonBehavior(PistonBehavior.NORMAL)));
+    public static final Block PLASTICBLOCK = registerBlock("plastic_block",
+            new Block(AbstractBlock.Settings.create()
+                    .requiresTool()
+                    .burnable()
+                    .instrument(NoteBlockInstrument.SNARE)
+                    .hardness(15.0f)
                     .velocityMultiplier(1.2f)
                     .jumpVelocityMultiplier(0.8f)
                     .pistonBehavior(PistonBehavior.NORMAL)));
