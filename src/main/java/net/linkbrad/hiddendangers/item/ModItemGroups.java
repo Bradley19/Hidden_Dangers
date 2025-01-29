@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.linkbrad.hiddendangers.HiddenDangers;
 import net.linkbrad.hiddendangers.block.ModBlocks;
 
+import net.linkbrad.hiddendangers.fluid.ModFluids;
 import net.linkbrad.hiddendangers.item.custom.ModFuelItems;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -24,6 +25,10 @@ public class ModItemGroups {
                         entries.add(ModItems.POLLUTIONSCANNER);
                         entries.add(ModFuelItems.FAILEDPLASTICMOLDING);
                         entries.add(ModFuelItems.LIQUIFIEDHYDROGENCANISTER);
+
+
+                        entries.add(ModFluids.HEAVYMETALCONTAINER);
+                        entries.add(ModItems.EMPTYPOLLUTIONCONTAINER);
 
 
                         entries.add(ModBlocks.TARBLOCK);

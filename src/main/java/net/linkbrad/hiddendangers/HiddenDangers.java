@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.linkbrad.hiddendangers.block.ModBlocks;
+import net.linkbrad.hiddendangers.fluid.ModFluids;
 import net.linkbrad.hiddendangers.item.ModItemGroups;
 import net.linkbrad.hiddendangers.item.ModItems;
 import net.linkbrad.hiddendangers.item.custom.ModFuelItems;
@@ -20,6 +21,7 @@ public class HiddenDangers implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModItems();
 		ModFuelItems.registerModfuelItem();
+		ModFluids.register();
 
 
 

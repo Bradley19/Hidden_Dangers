@@ -3,6 +3,7 @@ package net.linkbrad.hiddendangers.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.linkbrad.hiddendangers.block.ModBlocks;
+import net.linkbrad.hiddendangers.fluid.ModFluids;
 import net.linkbrad.hiddendangers.item.ModItems;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
@@ -17,6 +18,7 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TARBLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PLASTICBLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModFluids.HEAVYMETALBLOCK);
 
     }
 
@@ -24,6 +26,8 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.POLLUTIONSCANNER, Models.GENERATED);
         itemModelGenerator.register(ModItems.PLASTICSHEET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.EMPTYPOLLUTIONCONTAINER, Models.GENERATED);
+        itemModelGenerator.register(ModFluids.HEAVYMETALCONTAINER, Models.GENERATED);
 
     }
 }

@@ -1,9 +1,13 @@
-// 1.21.1	2025-01-27T23:00:21.1890434	Hidden Dangers/Model Definitions
+// 1.21.1	2025-01-28T20:51:33.3734944	Hidden Dangers/Model Definitions
 872b6f3599e1a93cb63c51654170c2c961f5f5ad assets\hidden-dangers\blockstates\plastic_block.json
-4eda504dc0e702ddd69dcaee2e94cdbe56ad2869 assets\hidden-dangers\models\item\pollution_scanner.json
 6fec5cf06922a1987c3d8f2be62d9306e22f005d assets\hidden-dangers\models\item\plastic_sheet.json
+7eee7512ae2ae71bf19fcf3d4efd0f2b8ce59635 assets\hidden-dangers\models\block\heavy_metal_block.json
+23817671c71f39aadbf47f3ae733b9d612b62afe assets\hidden-dangers\models\item\plastic_block.json
+13442a55778a57d2a6e20180eab99b6044a6db64 assets\hidden-dangers\blockstates\heavy_metal_block.json
+4eda504dc0e702ddd69dcaee2e94cdbe56ad2869 assets\hidden-dangers\models\item\pollution_scanner.json
 1fcd0fbd6cd66cebc4015d56b9ed3aa46c17e90f assets\hidden-dangers\models\item\tar_block.json
 d4ef49bfc20fcde92dcaf62068f4d3a478b74836 assets\hidden-dangers\models\block\plastic_block.json
+83ae87a160f3536c24f7a8052aa7ab4299bfc982 assets\hidden-dangers\models\item\heavy_metal_container.json
 bbbde6313effe9468db36852910fa456269d69c2 assets\hidden-dangers\blockstates\tar_block.json
 49e8a50b03719ed352c432fc456ebb2e247e7fb3 assets\hidden-dangers\models\block\tar_block.json
-23817671c71f39aadbf47f3ae733b9d612b62afe assets\hidden-dangers\models\item\plastic_block.json
+769aba77b8b23dd00f920dc8267103b57dc5d02b assets\hidden-dangers\models\item\empty_pollution_container.json

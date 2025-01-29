@@ -1,5 +1,5 @@
-[23:00:12] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.1 with Fabric Loader 0.16.7
-[23:00:12] [main/INFO] (FabricLoader) Loading 43 mods:
+[20:51:24] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.1 with Fabric Loader 0.16.7
+[20:51:24] [main/INFO] (FabricLoader) Loading 43 mods:
 	- fabric-api 0.106.0+1.21.1
 	- fabric-api-base 0.4.42+6573ed8c19
 	- fabric-api-lookup-api-v1 1.6.68+b559734419
@@ -43,26 +43,26 @@
 	- java 21
 	- minecraft 1.21.1
 	- mixinextras 0.4.1
-[23:00:12] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/linkb/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/51ee0a44ab05f6fddd66b09e66b3a16904f9c55d/sponge-mixin-0.15.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[23:00:12] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[23:00:12] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[23:00:12] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
-[23:00:13] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[23:00:20] [main/INFO] (hidden-dangers) Registering Creative Tabs for hidden-dangers
-[23:00:20] [main/INFO] (hidden-dangers) Registering Mod Items For hidden-dangers
-[23:00:20] [main/INFO] (hidden-dangers) Registering Mod Blocks For hidden-dangers
-[23:00:20] [main/INFO] (hidden-dangers) Registering Mod Fuel Items For hidden-dangers
-[23:00:20] [main/INFO] (hidden-dangers) The Worst Of Dangers Are Hidden In Plain Sight
-[23:00:20] [main/INFO] (FabricDataGenHelper) Running data generator for hidden-dangers
-[23:00:21] [main/INFO] (Minecraft) Starting provider: Hidden Dangers/Tags for minecraft:block
-[23:00:21] [main/INFO] (Minecraft) Hidden Dangers/Tags for minecraft:block finished after 24 ms
-[23:00:21] [main/INFO] (Minecraft) Starting provider: Hidden Dangers/Tags for minecraft:item
-[23:00:21] [main/INFO] (Minecraft) Hidden Dangers/Tags for minecraft:item finished after 0 ms
-[23:00:21] [main/INFO] (Minecraft) Starting provider: Hidden Dangers/Block Loot Tables
-[23:00:21] [main/INFO] (Minecraft) Hidden Dangers/Block Loot Tables finished after 9 ms
-[23:00:21] [main/INFO] (Minecraft) Starting provider: Hidden Dangers/Model Definitions
-[23:00:21] [main/INFO] (Minecraft) Hidden Dangers/Model Definitions finished after 37 ms
-[23:00:21] [main/INFO] (Minecraft) Starting provider: Hidden Dangers/Recipes
-[23:00:21] [main/INFO] (Minecraft) Hidden Dangers/Recipes finished after 36 ms
-[23:00:21] [main/INFO] (Minecraft) All providers took: 110 ms
-[23:00:21] [main/INFO] (Minecraft) Caching: total files: 27, old count: 27, new count: 28, removed stale: 0, written: 0
+[20:51:24] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/linkb/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/51ee0a44ab05f6fddd66b09e66b3a16904f9c55d/sponge-mixin-0.15.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[20:51:25] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[20:51:25] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[20:51:25] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
+[20:51:25] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[20:51:32] [main/INFO] (hidden-dangers) Registering Creative Tabs for hidden-dangers
+[20:51:32] [main/INFO] (hidden-dangers) Registering Mod Items For hidden-dangers
+[20:51:32] [main/INFO] (hidden-dangers) Registering Mod Blocks For hidden-dangers
+[20:51:32] [main/INFO] (hidden-dangers) Registering Mod Fuel Items For hidden-dangers
+[20:51:32] [main/INFO] (hidden-dangers) The Worst Of Dangers Are Hidden In Plain Sight
+[20:51:32] [main/INFO] (FabricDataGenHelper) Running data generator for hidden-dangers
+[20:51:33] [main/INFO] (Minecraft) Starting provider: Hidden Dangers/Tags for minecraft:block
+[20:51:33] [main/INFO] (Minecraft) Hidden Dangers/Tags for minecraft:block finished after 24 ms
+[20:51:33] [main/INFO] (Minecraft) Starting provider: Hidden Dangers/Tags for minecraft:item
+[20:51:33] [main/INFO] (Minecraft) Hidden Dangers/Tags for minecraft:item finished after 0 ms
+[20:51:33] [main/INFO] (Minecraft) Starting provider: Hidden Dangers/Block Loot Tables
+[20:51:33] [main/INFO] (Minecraft) Hidden Dangers/Block Loot Tables finished after 9 ms
+[20:51:33] [main/INFO] (Minecraft) Starting provider: Hidden Dangers/Model Definitions
+[20:51:33] [main/INFO] (Minecraft) Hidden Dangers/Model Definitions finished after 36 ms
+[20:51:33] [main/INFO] (Minecraft) Starting provider: Hidden Dangers/Recipes
+[20:51:33] [main/INFO] (Minecraft) Hidden Dangers/Recipes finished after 35 ms
+[20:51:33] [main/INFO] (Minecraft) All providers took: 108 ms
+[20:51:33] [main/INFO] (Minecraft) Caching: total files: 31, old count: 27, new count: 32, removed stale: 0, written: 4
